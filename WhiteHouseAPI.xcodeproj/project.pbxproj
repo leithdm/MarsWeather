@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01898E171C7DABFA001AB17B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01898E161C7DABFA001AB17B /* AppDelegate.swift */; };
+		01898E191C7DABFA001AB17B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01898E181C7DABFA001AB17B /* ListViewController.swift */; };
+		01898E1E1C7DABFA001AB17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01898E1D1C7DABFA001AB17B /* Assets.xcassets */; };
+		01898E211C7DABFA001AB17B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01898E1F1C7DABFA001AB17B /* LaunchScreen.storyboard */; };
+		01898E2C1C7DABFB001AB17B /* WhiteHouseAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01898E2B1C7DABFB001AB17B /* WhiteHouseAPITests.swift */; };
+		01898E371C7DABFB001AB17B /* WhiteHouseAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01898E361C7DABFB001AB17B /* WhiteHouseAPIUITests.swift */; };
+		01898E471C7DB3A7001AB17B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01898E461C7DB3A7001AB17B /* CustomTableViewCell.swift */; };
+		01CF86371C7DD6C10050231C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF86361C7DD6C10050231C /* LoginViewController.swift */; };
+		01CF86411C7E042D0050231C /* WhiteHouseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF86401C7E042D0050231C /* WhiteHouseAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01898E281C7DABFB001AB17B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01898E0B1C7DABFA001AB17B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01898E121C7DABFA001AB17B;
+			remoteInfo = WhiteHouseAPI;
+		};
+		01898E331C7DABFB001AB17B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01898E0B1C7DABFA001AB17B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01898E121C7DABFA001AB17B;
+			remoteInfo = WhiteHouseAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01898E131C7DABFA001AB17B /* WhiteHouseAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteHouseAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01898E161C7DABFA001AB17B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01898E181C7DABFA001AB17B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		01898E1D1C7DABFA001AB17B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01898E201C7DABFA001AB17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01898E221C7DABFB001AB17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01898E271C7DABFB001AB17B /* WhiteHouseAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteHouseAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01898E2B1C7DABFB001AB17B /* WhiteHouseAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteHouseAPITests.swift; sourceTree = "<group>"; };
+		01898E2D1C7DABFB001AB17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01898E321C7DABFB001AB17B /* WhiteHouseAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteHouseAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01898E361C7DABFB001AB17B /* WhiteHouseAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteHouseAPIUITests.swift; sourceTree = "<group>"; };
+		01898E381C7DABFB001AB17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01898E461C7DB3A7001AB17B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = ../CustomTableViewCell.swift; sourceTree = "<group>"; };
+		01CF86361C7DD6C10050231C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		01CF86401C7E042D0050231C /* WhiteHouseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteHouseAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01898E101C7DABFA001AB17B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01898E241C7DABFB001AB17B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01898E2F1C7DABFB001AB17B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01898E0A1C7DABFA001AB17B = {
+			isa = PBXGroup;
+			children = (
+				01898E151C7DABFA001AB17B /* WhiteHouseAPI */,
+				01898E2A1C7DABFB001AB17B /* WhiteHouseAPITests */,
+				01898E351C7DABFB001AB17B /* WhiteHouseAPIUITests */,
+				01898E141C7DABFA001AB17B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01898E141C7DABFA001AB17B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01898E131C7DABFA001AB17B /* WhiteHouseAPI.app */,
+				01898E271C7DABFB001AB17B /* WhiteHouseAPITests.xctest */,
+				01898E321C7DABFB001AB17B /* WhiteHouseAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01898E151C7DABFA001AB17B /* WhiteHouseAPI */ = {
+			isa = PBXGroup;
+			children = (
+				01CF863B1C7E024C0050231C /* Model */,
+				01CF863A1C7E02220050231C /* Controller */,
+				01CF86381C7E01FD0050231C /* View */,
+				01CF86391C7E02060050231C /* Resources */,
+			);
+			path = WhiteHouseAPI;
+			sourceTree = "<group>";
+		};
+		01898E2A1C7DABFB001AB17B /* WhiteHouseAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				01898E2B1C7DABFB001AB17B /* WhiteHouseAPITests.swift */,
+				01898E2D1C7DABFB001AB17B /* Info.plist */,
+			);
+			path = WhiteHouseAPITests;
+			sourceTree = "<group>";
+		};
+		01898E351C7DABFB001AB17B /* WhiteHouseAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01898E361C7DABFB001AB17B /* WhiteHouseAPIUITests.swift */,
+				01898E381C7DABFB001AB17B /* Info.plist */,
+			);
+			path = WhiteHouseAPIUITests;
+			sourceTree = "<group>";
+		};
+		01CF86381C7E01FD0050231C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01898E461C7DB3A7001AB17B /* CustomTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		01CF86391C7E02060050231C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01898E161C7DABFA001AB17B /* AppDelegate.swift */,
+				01898E1D1C7DABFA001AB17B /* Assets.xcassets */,
+				01898E1F1C7DABFA001AB17B /* LaunchScreen.storyboard */,
+				01898E221C7DABFB001AB17B /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		01CF863A1C7E02220050231C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				01CF86361C7DD6C10050231C /* LoginViewController.swift */,
+				01898E181C7DABFA001AB17B /* ListViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		01CF863B1C7E024C0050231C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01CF863C1C7E02780050231C /* Clients */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		01CF863C1C7E02780050231C /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				01CF86401C7E042D0050231C /* WhiteHouseAPI.swift */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01898E121C7DABFA001AB17B /* WhiteHouseAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01898E3B1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPI" */;
+			buildPhases = (
+				01898E0F1C7DABFA001AB17B /* Sources */,
+				01898E101C7DABFA001AB17B /* Frameworks */,
+				01898E111C7DABFA001AB17B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteHouseAPI;
+			productName = WhiteHouseAPI;
+			productReference = 01898E131C7DABFA001AB17B /* WhiteHouseAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01898E261C7DABFB001AB17B /* WhiteHouseAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01898E3E1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPITests" */;
+			buildPhases = (
+				01898E231C7DABFB001AB17B /* Sources */,
+				01898E241C7DABFB001AB17B /* Frameworks */,
+				01898E251C7DABFB001AB17B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01898E291C7DABFB001AB17B /* PBXTargetDependency */,
+			);
+			name = WhiteHouseAPITests;
+			productName = WhiteHouseAPITests;
+			productReference = 01898E271C7DABFB001AB17B /* WhiteHouseAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01898E311C7DABFB001AB17B /* WhiteHouseAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01898E411C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPIUITests" */;
+			buildPhases = (
+				01898E2E1C7DABFB001AB17B /* Sources */,
+				01898E2F1C7DABFB001AB17B /* Frameworks */,
+				01898E301C7DABFB001AB17B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01898E341C7DABFB001AB17B /* PBXTargetDependency */,
+			);
+			name = WhiteHouseAPIUITests;
+			productName = WhiteHouseAPIUITests;
+			productReference = 01898E321C7DABFB001AB17B /* WhiteHouseAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01898E0B1C7DABFA001AB17B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Darren Leith";
+				TargetAttributes = {
+					01898E121C7DABFA001AB17B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					01898E261C7DABFB001AB17B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 01898E121C7DABFA001AB17B;
+					};
+					01898E311C7DABFB001AB17B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 01898E121C7DABFA001AB17B;
+					};
+				};
+			};
+			buildConfigurationList = 01898E0E1C7DABFA001AB17B /* Build configuration list for PBXProject "WhiteHouseAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01898E0A1C7DABFA001AB17B;
+			productRefGroup = 01898E141C7DABFA001AB17B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01898E121C7DABFA001AB17B /* WhiteHouseAPI */,
+				01898E261C7DABFB001AB17B /* WhiteHouseAPITests */,
+				01898E311C7DABFB001AB17B /* WhiteHouseAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01898E111C7DABFA001AB17B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01898E211C7DABFA001AB17B /* LaunchScreen.storyboard in Resources */,
+				01898E1E1C7DABFA001AB17B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01898E251C7DABFB001AB17B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01898E301C7DABFB001AB17B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01898E0F1C7DABFA001AB17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CF86411C7E042D0050231C /* WhiteHouseAPI.swift in Sources */,
+				01CF86371C7DD6C10050231C /* LoginViewController.swift in Sources */,
+				01898E471C7DB3A7001AB17B /* CustomTableViewCell.swift in Sources */,
+				01898E191C7DABFA001AB17B /* ListViewController.swift in Sources */,
+				01898E171C7DABFA001AB17B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01898E231C7DABFB001AB17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01898E2C1C7DABFB001AB17B /* WhiteHouseAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01898E2E1C7DABFB001AB17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01898E371C7DABFB001AB17B /* WhiteHouseAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01898E291C7DABFB001AB17B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01898E121C7DABFA001AB17B /* WhiteHouseAPI */;
+			targetProxy = 01898E281C7DABFB001AB17B /* PBXContainerItemProxy */;
+		};
+		01898E341C7DABFB001AB17B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01898E121C7DABFA001AB17B /* WhiteHouseAPI */;
+			targetProxy = 01898E331C7DABFB001AB17B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01898E1F1C7DABFA001AB17B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01898E201C7DABFA001AB17B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01898E391C7DABFB001AB17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01898E3A1C7DABFB001AB17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01898E3C1C7DABFB001AB17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhiteHouseAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01898E3D1C7DABFB001AB17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhiteHouseAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01898E3F1C7DABFB001AB17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhiteHouseAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteHouseAPI.app/WhiteHouseAPI";
+			};
+			name = Debug;
+		};
+		01898E401C7DABFB001AB17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhiteHouseAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteHouseAPI.app/WhiteHouseAPI";
+			};
+			name = Release;
+		};
+		01898E421C7DABFB001AB17B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WhiteHouseAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhiteHouseAPI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		01898E431C7DABFB001AB17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WhiteHouseAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhiteHouseAPI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01898E0E1C7DABFA001AB17B /* Build configuration list for PBXProject "WhiteHouseAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01898E391C7DABFB001AB17B /* Debug */,
+				01898E3A1C7DABFB001AB17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01898E3B1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01898E3C1C7DABFB001AB17B /* Debug */,
+				01898E3D1C7DABFB001AB17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01898E3E1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01898E3F1C7DABFB001AB17B /* Debug */,
+				01898E401C7DABFB001AB17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01898E411C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01898E421C7DABFB001AB17B /* Debug */,
+				01898E431C7DABFB001AB17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01898E0B1C7DABFA001AB17B /* Project object */;
+}
