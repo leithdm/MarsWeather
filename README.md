@@ -1,1 +1,5 @@
-#Parse JSON from WhiteHouse API
+#Parse JSON from MarsWeather API
+
+##References
+http://marsweather.ingenology.com/
+
