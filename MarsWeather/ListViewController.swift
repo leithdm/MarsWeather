@@ -13,9 +13,10 @@ class ListViewController: UITableViewController {
 	//MARK: - properties
 	
 	//dummy data to confirm functionality
-	let textData = ["a", "b", "c", "d"]
-	let detailTextLabel = ["foo", "bar", "foobar", "foob"]
+	var archives = [Archive]()
+
 	private let cellIdentifier = "cell"
+	let marsWeatherAPI = MarsWeatherAPI()
 	
 	//MARK: - lifecycle methods
 	
@@ -33,21 +34,55 @@ class ListViewController: UITableViewController {
 		tableView.dataSource = self
 		tableView.delegate = self
 		tableView.frame = CGRect(x: 50, y: 0, width: view.bounds.width, height: view.bounds.height)
+		
+		//call method
+		getWeatherFromMars { () -> Void in
+			self.performUIUpdatesOnMain({ () -> Void in
+				self.tableView.reloadData()
+			})
+		}
+	}
+	
+	override func viewWillAppear(animated: Bool) {
+		super.viewWillAppear(animated)
+		self.tableView.reloadData()
+	}
+	
+	func getWeatherFromMars(completionHandler: () -> Void) {
+		
+		marsWeatherAPI.getWeatherOnMars { (data, error) -> Void in
+			
+			guard let data = data else {
+				print("error parsing data")
+				return 
+			}
+
+			for archiveDay in data {
+				let newArchive = Archive(dictionary: archiveDay)
+				self.archives.append(newArchive)
+				print(self.archives)
+			}
+			self.tableView.reloadData()
+		}
 	}
 
 	//TODO: - add functionality
 	func refresh() {
-		//
+		tableView.reloadData()
 	}
 	
 	//MARK: - tableView methods
 	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! CustomTableViewCell
 		
-		//basic setup of the table cell
-		cell.textField.text = textData[indexPath.row]
-		cell.descriptionTextField.text = detailTextLabel[indexPath.row]
+		let archive = archives[indexPath.row]
 		
+		//basic setup of the table cell
+		performUIUpdatesOnMain { () -> Void in
+			cell.textField.text = String(archive.maxTemp)
+			cell.descriptionTextField.text = String(archive.minTemp)
+			tableView.reloadData()
+		}
 		return cell
 	}
 	
@@ -56,8 +91,13 @@ class ListViewController: UITableViewController {
 	}
 	
 	override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return textData.count
+		return archives.count
 	}
 
+	func performUIUpdatesOnMain(updates: () -> Void) {
+		dispatch_async(dispatch_get_main_queue()) {
+			updates()
+		}
+	}
 }
 

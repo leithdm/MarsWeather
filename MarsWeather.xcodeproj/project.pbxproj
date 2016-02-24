@@ -15,7 +15,8 @@
 		01898E371C7DABFB001AB17B /* WhiteHouseAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01898E361C7DABFB001AB17B /* WhiteHouseAPIUITests.swift */; };
 		01898E471C7DB3A7001AB17B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01898E461C7DB3A7001AB17B /* CustomTableViewCell.swift */; };
 		01CF86371C7DD6C10050231C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF86361C7DD6C10050231C /* LoginViewController.swift */; };
-		01CF86411C7E042D0050231C /* WhiteHouseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF86401C7E042D0050231C /* WhiteHouseAPI.swift */; };
+		01CF86411C7E042D0050231C /* MarsWeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF86401C7E042D0050231C /* MarsWeatherAPI.swift */; };
+		01CF86431C7E0F240050231C /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF86421C7E0F240050231C /* Archive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01898E131C7DABFA001AB17B /* WhiteHouseAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteHouseAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01898E131C7DABFA001AB17B /* MarsWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01898E161C7DABFA001AB17B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01898E181C7DABFA001AB17B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		01898E1D1C7DABFA001AB17B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01898E201C7DABFA001AB17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01898E221C7DABFB001AB17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01898E271C7DABFB001AB17B /* WhiteHouseAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteHouseAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01898E271C7DABFB001AB17B /* MarsWeather.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsWeather.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01898E2B1C7DABFB001AB17B /* WhiteHouseAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteHouseAPITests.swift; sourceTree = "<group>"; };
 		01898E2D1C7DABFB001AB17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01898E321C7DABFB001AB17B /* WhiteHouseAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteHouseAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01898E321C7DABFB001AB17B /* MarsWeather.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsWeather.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01898E361C7DABFB001AB17B /* WhiteHouseAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteHouseAPIUITests.swift; sourceTree = "<group>"; };
 		01898E381C7DABFB001AB17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01898E461C7DB3A7001AB17B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = ../CustomTableViewCell.swift; sourceTree = "<group>"; };
 		01CF86361C7DD6C10050231C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		01CF86401C7E042D0050231C /* WhiteHouseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteHouseAPI.swift; sourceTree = "<group>"; };
+		01CF86401C7E042D0050231C /* MarsWeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsWeatherAPI.swift; sourceTree = "<group>"; };
+		01CF86421C7E0F240050231C /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,7 @@
 		01898E0A1C7DABFA001AB17B = {
 			isa = PBXGroup;
 			children = (
-				01898E151C7DABFA001AB17B /* WhiteHouseAPI */,
+				01898E151C7DABFA001AB17B /* MarsWeather */,
 				01898E2A1C7DABFB001AB17B /* WhiteHouseAPITests */,
 				01898E351C7DABFB001AB17B /* WhiteHouseAPIUITests */,
 				01898E141C7DABFA001AB17B /* Products */,
@@ -91,14 +93,14 @@
 		01898E141C7DABFA001AB17B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01898E131C7DABFA001AB17B /* WhiteHouseAPI.app */,
-				01898E271C7DABFB001AB17B /* WhiteHouseAPITests.xctest */,
-				01898E321C7DABFB001AB17B /* WhiteHouseAPIUITests.xctest */,
+				01898E131C7DABFA001AB17B /* MarsWeather.app */,
+				01898E271C7DABFB001AB17B /* MarsWeather.xctest */,
+				01898E321C7DABFB001AB17B /* MarsWeather.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		01898E151C7DABFA001AB17B /* WhiteHouseAPI */ = {
+		01898E151C7DABFA001AB17B /* MarsWeather */ = {
 			isa = PBXGroup;
 			children = (
 				01CF863B1C7E024C0050231C /* Model */,
@@ -106,7 +108,7 @@
 				01CF86381C7E01FD0050231C /* View */,
 				01CF86391C7E02060050231C /* Resources */,
 			);
-			path = WhiteHouseAPI;
+			path = MarsWeather;
 			sourceTree = "<group>";
 		};
 		01898E2A1C7DABFB001AB17B /* WhiteHouseAPITests */ = {
@@ -158,6 +160,7 @@
 		01CF863B1C7E024C0050231C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				01CF86421C7E0F240050231C /* Archive.swift */,
 				01CF863C1C7E02780050231C /* Clients */,
 			);
 			name = Model;
@@ -166,7 +169,7 @@
 		01CF863C1C7E02780050231C /* Clients */ = {
 			isa = PBXGroup;
 			children = (
-				01CF86401C7E042D0050231C /* WhiteHouseAPI.swift */,
+				01CF86401C7E042D0050231C /* MarsWeatherAPI.swift */,
 			);
 			name = Clients;
 			sourceTree = "<group>";
@@ -174,9 +177,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01898E121C7DABFA001AB17B /* WhiteHouseAPI */ = {
+		01898E121C7DABFA001AB17B /* MarsWeather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01898E3B1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPI" */;
+			buildConfigurationList = 01898E3B1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "MarsWeather" */;
 			buildPhases = (
 				01898E0F1C7DABFA001AB17B /* Sources */,
 				01898E101C7DABFA001AB17B /* Frameworks */,
@@ -186,14 +189,14 @@
 			);
 			dependencies = (
 			);
-			name = WhiteHouseAPI;
+			name = MarsWeather;
 			productName = WhiteHouseAPI;
-			productReference = 01898E131C7DABFA001AB17B /* WhiteHouseAPI.app */;
+			productReference = 01898E131C7DABFA001AB17B /* MarsWeather.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01898E261C7DABFB001AB17B /* WhiteHouseAPITests */ = {
+		01898E261C7DABFB001AB17B /* MarsWeatherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01898E3E1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPITests" */;
+			buildConfigurationList = 01898E3E1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "MarsWeatherTests" */;
 			buildPhases = (
 				01898E231C7DABFB001AB17B /* Sources */,
 				01898E241C7DABFB001AB17B /* Frameworks */,
@@ -204,14 +207,14 @@
 			dependencies = (
 				01898E291C7DABFB001AB17B /* PBXTargetDependency */,
 			);
-			name = WhiteHouseAPITests;
+			name = MarsWeatherTests;
 			productName = WhiteHouseAPITests;
-			productReference = 01898E271C7DABFB001AB17B /* WhiteHouseAPITests.xctest */;
+			productReference = 01898E271C7DABFB001AB17B /* MarsWeather.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		01898E311C7DABFB001AB17B /* WhiteHouseAPIUITests */ = {
+		01898E311C7DABFB001AB17B /* MarsWeatherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01898E411C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPIUITests" */;
+			buildConfigurationList = 01898E411C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "MarsWeatherUITests" */;
 			buildPhases = (
 				01898E2E1C7DABFB001AB17B /* Sources */,
 				01898E2F1C7DABFB001AB17B /* Frameworks */,
@@ -222,9 +225,9 @@
 			dependencies = (
 				01898E341C7DABFB001AB17B /* PBXTargetDependency */,
 			);
-			name = WhiteHouseAPIUITests;
+			name = MarsWeatherUITests;
 			productName = WhiteHouseAPIUITests;
-			productReference = 01898E321C7DABFB001AB17B /* WhiteHouseAPIUITests.xctest */;
+			productReference = 01898E321C7DABFB001AB17B /* MarsWeather.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -250,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01898E0E1C7DABFA001AB17B /* Build configuration list for PBXProject "WhiteHouseAPI" */;
+			buildConfigurationList = 01898E0E1C7DABFA001AB17B /* Build configuration list for PBXProject "MarsWeather" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -263,9 +266,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01898E121C7DABFA001AB17B /* WhiteHouseAPI */,
-				01898E261C7DABFB001AB17B /* WhiteHouseAPITests */,
-				01898E311C7DABFB001AB17B /* WhiteHouseAPIUITests */,
+				01898E121C7DABFA001AB17B /* MarsWeather */,
+				01898E261C7DABFB001AB17B /* MarsWeatherTests */,
+				01898E311C7DABFB001AB17B /* MarsWeatherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -301,10 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01CF86411C7E042D0050231C /* WhiteHouseAPI.swift in Sources */,
+				01CF86411C7E042D0050231C /* MarsWeatherAPI.swift in Sources */,
 				01CF86371C7DD6C10050231C /* LoginViewController.swift in Sources */,
 				01898E471C7DB3A7001AB17B /* CustomTableViewCell.swift in Sources */,
 				01898E191C7DABFA001AB17B /* ListViewController.swift in Sources */,
+				01CF86431C7E0F240050231C /* Archive.swift in Sources */,
 				01898E171C7DABFA001AB17B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,12 +334,12 @@
 /* Begin PBXTargetDependency section */
 		01898E291C7DABFB001AB17B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01898E121C7DABFA001AB17B /* WhiteHouseAPI */;
+			target = 01898E121C7DABFA001AB17B /* MarsWeather */;
 			targetProxy = 01898E281C7DABFB001AB17B /* PBXContainerItemProxy */;
 		};
 		01898E341C7DABFB001AB17B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01898E121C7DABFA001AB17B /* WhiteHouseAPI */;
+			target = 01898E121C7DABFA001AB17B /* MarsWeather */;
 			targetProxy = 01898E331C7DABFB001AB17B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -439,10 +443,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WhiteHouseAPI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MarsWeather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.MarsWeather;
+				PRODUCT_NAME = MarsWeather;
 			};
 			name = Debug;
 		};
@@ -450,10 +454,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WhiteHouseAPI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MarsWeather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.MarsWeather;
+				PRODUCT_NAME = MarsWeather;
 			};
 			name = Release;
 		};
@@ -464,8 +468,8 @@
 				INFOPLIST_FILE = WhiteHouseAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteHouseAPI.app/WhiteHouseAPI";
+				PRODUCT_NAME = MarsWeather;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsWeather.app/MarsWeather";
 			};
 			name = Debug;
 		};
@@ -476,8 +480,8 @@
 				INFOPLIST_FILE = WhiteHouseAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteHouseAPI.app/WhiteHouseAPI";
+				PRODUCT_NAME = MarsWeather;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsWeather.app/MarsWeather";
 			};
 			name = Release;
 		};
@@ -487,7 +491,7 @@
 				INFOPLIST_FILE = WhiteHouseAPIUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MarsWeather;
 				TEST_TARGET_NAME = WhiteHouseAPI;
 				USES_XCTRUNNER = YES;
 			};
@@ -499,7 +503,7 @@
 				INFOPLIST_FILE = WhiteHouseAPIUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.darrenmartinleith.WhiteHouseAPIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MarsWeather;
 				TEST_TARGET_NAME = WhiteHouseAPI;
 				USES_XCTRUNNER = YES;
 			};
@@ -508,7 +512,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01898E0E1C7DABFA001AB17B /* Build configuration list for PBXProject "WhiteHouseAPI" */ = {
+		01898E0E1C7DABFA001AB17B /* Build configuration list for PBXProject "MarsWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01898E391C7DABFB001AB17B /* Debug */,
@@ -517,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01898E3B1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPI" */ = {
+		01898E3B1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "MarsWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01898E3C1C7DABFB001AB17B /* Debug */,
@@ -526,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01898E3E1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPITests" */ = {
+		01898E3E1C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "MarsWeatherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01898E3F1C7DABFB001AB17B /* Debug */,
@@ -535,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01898E411C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "WhiteHouseAPIUITests" */ = {
+		01898E411C7DABFB001AB17B /* Build configuration list for PBXNativeTarget "MarsWeatherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01898E421C7DABFB001AB17B /* Debug */,

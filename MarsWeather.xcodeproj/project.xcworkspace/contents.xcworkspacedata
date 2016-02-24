@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WhiteHouseAPI.xcodeproj">
+      location = "self:/Users/darrenleith/Google Drive/Swift/WhiteHouseAPI/MarsWeather.xcodeproj">
    </FileRef>
 </Workspace>
