@@ -29,7 +29,7 @@ class LoginViewController: UIViewController {
 		
 		//configure a UIButton to segue over to ListViewController
 		button = UIButton(frame: CGRect(x: (CGRectGetWidth(view.bounds)/2 - 50), y: view.bounds.height - 100 , width: 100, height: 50))
-		button.setTitle("Click Me", forState: .Normal)
+		button.setTitle("Login Button", forState: .Normal)
 		button.setTitleColor(UIColor.blueColor(), forState: .Normal)
 		button.addTarget(self, action: "segueToListViewController", forControlEvents: .TouchUpInside)
 		view.addSubview(button)

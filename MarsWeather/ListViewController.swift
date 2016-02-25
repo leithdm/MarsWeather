@@ -31,24 +31,16 @@ class ListViewController: UITableViewController {
 		
 		//setup the tableView
 		tableView.rowHeight = 60
-		tableView.dataSource = self
-		tableView.delegate = self
 		tableView.frame = CGRect(x: 50, y: 0, width: view.bounds.width, height: view.bounds.height)
-		
-		//call method
-		getWeatherFromMars { () -> Void in
-			self.performUIUpdatesOnMain({ () -> Void in
-				self.tableView.reloadData()
-			})
-		}
 	}
 	
 	override func viewWillAppear(animated: Bool) {
 		super.viewWillAppear(animated)
-		self.tableView.reloadData()
+
+		getWeatherFromMars()
 	}
 	
-	func getWeatherFromMars(completionHandler: () -> Void) {
+	func getWeatherFromMars() {
 		
 		marsWeatherAPI.getWeatherOnMars { (data, error) -> Void in
 			
@@ -60,9 +52,11 @@ class ListViewController: UITableViewController {
 			for archiveDay in data {
 				let newArchive = Archive(dictionary: archiveDay)
 				self.archives.append(newArchive)
-				print(self.archives)
 			}
-			self.tableView.reloadData()
+			
+			self.performUIUpdatesOnMain({ () -> Void in
+				self.tableView.reloadData()
+			})
 		}
 	}
 
@@ -79,8 +73,8 @@ class ListViewController: UITableViewController {
 		
 		//basic setup of the table cell
 		performUIUpdatesOnMain { () -> Void in
-			cell.textField.text = String(archive.maxTemp)
-			cell.descriptionTextField.text = String(archive.minTemp)
+			cell.textField.text = "Date: \(String(archive.terrestrialDate))"
+			cell.descriptionTextField.text = "Max Temp: \(String(archive.maxTemp))ºC | Min Temp: \(String(archive.minTemp))ºC"
 			tableView.reloadData()
 		}
 		return cell

@@ -4,6 +4,7 @@ struct Archive {
 	
 	let maxTemp: Float
 	let minTemp: Float
+	let terrestrialDate: String
 	
 	// MARK: Initializers
 	
@@ -11,6 +12,7 @@ struct Archive {
 	init(dictionary: [String:AnyObject]) {
 		maxTemp = dictionary["max_temp"] as! Float
 		minTemp = dictionary["min_temp"] as! Float
+		terrestrialDate = dictionary["terrestrial_date"] as! String
 	}
 }
 
