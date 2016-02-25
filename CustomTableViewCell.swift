@@ -9,27 +9,23 @@
 import UIKit
 
 class CustomTableViewCell: UITableViewCell {
-
+	
 	//MARK: - properties
 	
 	var textField: UITextField = UITextField()
 	var descriptionTextField: UITextField = UITextField()
 	
-	
 	//MARK: - selected state of the cell
 	
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-    }
+	override func setSelected(selected: Bool, animated: Bool) {
+		super.setSelected(selected, animated: animated)
+		
+	}
 	
 	//MARK: - initializor
 	
 	override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-
 		super.init(style: style, reuseIdentifier: reuseIdentifier)
-		
-		//TODO: refactor
 		
 		//textField properties
 		textField = UITextField(frame: CGRect(x: 10, y: 0, width: self.bounds.size.width, height: 40))
@@ -48,7 +44,6 @@ class CustomTableViewCell: UITableViewCell {
 		addSubview(descriptionTextField)
 	}
 	
-
 	required init?(coder aDecoder: NSCoder) {
 		fatalError("init(coder:) has not been implemented")
 	}

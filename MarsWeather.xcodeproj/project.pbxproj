@@ -17,6 +17,7 @@
 		01CF86371C7DD6C10050231C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF86361C7DD6C10050231C /* LoginViewController.swift */; };
 		01CF86411C7E042D0050231C /* MarsWeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF86401C7E042D0050231C /* MarsWeatherAPI.swift */; };
 		01CF86431C7E0F240050231C /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF86421C7E0F240050231C /* Archive.swift */; };
+		01EE450C1C7F55F500DC762B /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE450B1C7F55F500DC762B /* PullToRefresh.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		01CF86361C7DD6C10050231C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01CF86401C7E042D0050231C /* MarsWeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsWeatherAPI.swift; sourceTree = "<group>"; };
 		01CF86421C7E0F240050231C /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
+		01EE450B1C7F55F500DC762B /* PullToRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		01CF86381C7E01FD0050231C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				01EE450B1C7F55F500DC762B /* PullToRefresh.swift */,
 				01898E461C7DB3A7001AB17B /* CustomTableViewCell.swift */,
 			);
 			name = View;
@@ -305,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01CF86411C7E042D0050231C /* MarsWeatherAPI.swift in Sources */,
+				01EE450C1C7F55F500DC762B /* PullToRefresh.swift in Sources */,
 				01CF86371C7DD6C10050231C /* LoginViewController.swift in Sources */,
 				01898E471C7DB3A7001AB17B /* CustomTableViewCell.swift in Sources */,
 				01898E191C7DABFA001AB17B /* ListViewController.swift in Sources */,

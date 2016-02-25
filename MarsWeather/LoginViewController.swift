@@ -9,7 +9,7 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+	
 	//TODO: this is a dummy implementation for a login screen
 	
 	//MARK: - properties
@@ -18,9 +18,9 @@ class LoginViewController: UIViewController {
 	
 	
 	//MARK: - lifecycle methods
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
 		//configure a UILabel with sample text
 		sampleText = UILabel(frame: CGRect(x: view.bounds.width/2 - 50 , y: view.bounds.height/2, width: 100, height: 50))
 		sampleText.textAlignment = .Center
@@ -33,11 +33,11 @@ class LoginViewController: UIViewController {
 		button.setTitleColor(UIColor.blueColor(), forState: .Normal)
 		button.addTarget(self, action: "segueToListViewController", forControlEvents: .TouchUpInside)
 		view.addSubview(button)
-    }
-
+	}
+	
 	func segueToListViewController() {
 		let controller = ListViewController()
 		presentViewController(UINavigationController(rootViewController: controller), animated: true, completion: nil)
 	}
-
+	
 }
