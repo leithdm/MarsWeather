@@ -120,7 +120,7 @@
 				01898E2D1C7DABFB001AB17B /* Info.plist */,
 			);
 			name = MarsWeather;
-			path = WhiteHouseAPITests;
+			path = MarsWeatherAPITests;
 			sourceTree = "<group>";
 		};
 		01898E351C7DABFB001AB17B /* MarsWeather */ = {
@@ -130,7 +130,7 @@
 				01898E381C7DABFB001AB17B /* Info.plist */,
 			);
 			name = MarsWeather;
-			path = WhiteHouseAPIUITests;
+			path = MarsWeatherAPIUITests;
 			sourceTree = "<group>";
 		};
 		01CF86381C7E01FD0050231C /* View */ = {
