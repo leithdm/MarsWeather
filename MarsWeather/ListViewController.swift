@@ -16,7 +16,7 @@ class ListViewController: UITableViewController {
 	private let cellIdentifier = "cell"
 	private let refreshViewHeight: CGFloat = 200
 	let marsWeatherAPI = MarsWeatherAPI()
-	let activityIndicator = UIActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+	var activityIndicator: UIActivityIndicatorView!
 	var pullToRefresh: PullToRefresh!
 	
 	//MARK: - lifecycle methods
@@ -37,21 +37,32 @@ class ListViewController: UITableViewController {
 		
 		//pull to refresh
 		pullToRefresh = PullToRefresh(frame: CGRect(x: 0, y: -refreshViewHeight, width: CGRectGetWidth(view.bounds), height: refreshViewHeight), scrollView: tableView)
-		view.insertSubview(pullToRefresh, atIndex: 0)
+		tableView.insertSubview(pullToRefresh, atIndex: 0)
+		
+		//activityIndicator
+		activityIndicator = UIActivityIndicatorView(frame: CGRect(x: view.frame.width/2 - 25, y: view.frame.height/3, width: 50, height: 50))
+		activityIndicator.startAnimating()
+		activityIndicator.alpha = 1.0
+		activityIndicator.activityIndicatorViewStyle = .Gray
+		tableView.addSubview(activityIndicator)
 	}
 	
 	override func viewWillAppear(animated: Bool) {
 		super.viewWillAppear(animated)
-		getWeatherFromMars()
+		getWeatherViewDidLoad()
 	}
 	
 	override func scrollViewDidScroll(scrollView: UIScrollView) {
 		pullToRefresh.scrollViewDidScroll(scrollView)
-		getWeatherFromMars()
 	}
 	
 	override func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
 		pullToRefresh.scrollViewDidEndDecelerating(scrollView)
+		getWeatherFromMars()
+	}
+	
+	func getWeatherViewDidLoad() {
+		getWeatherFromMars()
 	}
 	
 	func getWeatherFromMars() {
@@ -66,6 +77,10 @@ class ListViewController: UITableViewController {
 				})
 				return
 			}
+			
+			self.performUIUpdatesOnMain({ () -> Void in
+				self.activityIndicator.stopAnimating()
+			})
 			
 			var localArchives = [Archive]()
 			
