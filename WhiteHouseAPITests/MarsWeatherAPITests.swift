@@ -1,15 +1,14 @@
 //
-//  WhiteHouseAPITests.swift
-//  WhiteHouseAPITests
+//  MarsWeatherAPITests.swift
+//  MarsWeatherAPITests
 //
 //  Created by Darren Leith on 24/02/2016.
 //  Copyright © 2016 Darren Leith. All rights reserved.
 //
 
 import XCTest
-@testable import WhiteHouseAPI
 
-class WhiteHouseAPITests: XCTestCase {
+class MarsWeatherAPITests: XCTestCase {
     
     override func setUp() {
         super.setUp()
