@@ -1,6 +1,6 @@
 //
 //  PullToRefresh.swift
-//  MarsWeather
+//  MarsWeatherAPI
 //
 //  Created by Darren Leith on 25/02/2016.
 //  Copyright © 2016 Darren Leith. All rights reserved.
